@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="december.testcomponents.Listeners" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="december.testfiles.RegistrationTest" />
+			<class name="december.testfiles.OrderProductTest" />
+			<class name="december.testfiles.LoginTest" />
+			<class name="december.testfiles.AddToCartTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
